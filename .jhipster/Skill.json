@@ -1,0 +1,36 @@
+{
+  "name": "Skill",
+  "fields": [
+    {
+      "fieldName": "skill",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "skillDesc",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "icon",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "language",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "skill",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210629070425"
+}

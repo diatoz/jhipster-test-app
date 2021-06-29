@@ -1,0 +1,59 @@
+{
+  "name": "QuestionMaster",
+  "fields": [
+    {
+      "fieldName": "questionId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "question",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "QuestionType",
+      "fieldValues": "MCQ,VIDEO,CODING,ASSESSMENT"
+    },
+    {
+      "fieldName": "complexity",
+      "fieldType": "Complexity",
+      "fieldValues": "ENTRY,JUNIOR,MID,SENIOR,EXPERT"
+    },
+    {
+      "fieldName": "experienceFrom",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "experienceTo",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "category",
+      "fieldType": "Category",
+      "fieldValues": "GENERAL,TECHNICAL,COMPREHENSION"
+    },
+    {
+      "fieldName": "reference",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "audiolink",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "skillId",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "question_master",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210629070426"
+}

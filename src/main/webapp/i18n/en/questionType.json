@@ -1,0 +1,11 @@
+{
+  "jhipsterTestApp": {
+    "QuestionType": {
+      "null": "",
+      "MCQ": "MCQ",
+      "VIDEO": "VIDEO",
+      "CODING": "CODING",
+      "ASSESSMENT": "ASSESSMENT"
+    }
+  }
+}

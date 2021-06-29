@@ -1,0 +1,32 @@
+{
+  "name": "AnswerOptionMaster",
+  "fields": [
+    {
+      "fieldName": "answerOptionId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "answerOption",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "answerOptionOrder",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "correctAnswer",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "answer_option_master",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": true,
+  "applications": "*",
+  "changelogDate": "20210629070427"
+}

@@ -1,0 +1,33 @@
+{
+  "jhipsterTestApp": {
+    "questionMaster": {
+      "home": {
+        "title": "Question Masters",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Question Master",
+        "createOrEditLabel": "Create or edit a Question Master",
+        "notFound": "No Question Masters found"
+      },
+      "created": "A new Question Master is created with identifier {{ param }}",
+      "updated": "A Question Master is updated with identifier {{ param }}",
+      "deleted": "A Question Master is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Question Master {{ id }}?"
+      },
+      "detail": {
+        "title": "Question Master"
+      },
+      "id": "ID",
+      "questionId": "Question Id",
+      "question": "Question",
+      "type": "Type",
+      "complexity": "Complexity",
+      "experienceFrom": "Experience From",
+      "experienceTo": "Experience To",
+      "category": "Category",
+      "reference": "Reference",
+      "audiolink": "Audiolink",
+      "skillId": "Skill Id"
+    }
+  }
+}

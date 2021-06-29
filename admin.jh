@@ -1,0 +1,50 @@
+
+entity Skill {
+	skill String,
+    skillDesc String,
+    icon String,
+    language String, //what is the language
+	type String
+}
+enum Complexity {
+    ENTRY, JUNIOR, MID, SENIOR, EXPERT
+}
+enum Category {
+    GENERAL, TECHNICAL, COMPREHENSION
+}
+enum QuestionType {
+	MCQ, VIDEO, CODING, ASSESSMENT
+}
+entity QuestionMaster {
+	questionId String,
+	question String,
+	type QuestionType,
+	complexity Complexity,
+	experienceFrom Integer,
+	experienceTo Integer,
+	category Category,
+	reference String,
+	audiolink String, 
+    skillId String
+}
+
+@embedded
+entity AnswerOptionMaster {
+  answerOptionId String,
+  answerOption String,
+  answerOptionOrder Integer,
+  correctAnswer Boolean
+}
+
+
+// Set pagination options
+paginate QuestionMaster with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Category, QuestionType, Complexity
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
