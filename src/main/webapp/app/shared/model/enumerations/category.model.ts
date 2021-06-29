@@ -1,0 +1,7 @@
+export enum Category {
+  GENERAL = 'GENERAL',
+
+  TECHNICAL = 'TECHNICAL',
+
+  COMPREHENSION = 'COMPREHENSION',
+}

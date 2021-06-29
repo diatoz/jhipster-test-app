@@ -1,0 +1,26 @@
+{
+  "jhipsterTestApp": {
+    "answerOptionMaster": {
+      "home": {
+        "title": "Answer Option Masters",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Answer Option Master",
+        "createOrEditLabel": "Create or edit a Answer Option Master",
+        "notFound": "No Answer Option Masters found"
+      },
+      "created": "A new Answer Option Master is created with identifier {{ param }}",
+      "updated": "A Answer Option Master is updated with identifier {{ param }}",
+      "deleted": "A Answer Option Master is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Answer Option Master {{ id }}?"
+      },
+      "detail": {
+        "title": "Answer Option Master"
+      },
+      "answerOptionId": "Answer Option Id",
+      "answerOption": "Answer Option",
+      "answerOptionOrder": "Answer Option Order",
+      "correctAnswer": "Correct Answer"
+    }
+  }
+}

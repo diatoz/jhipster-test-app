@@ -1,0 +1,10 @@
+{
+  "jhipsterTestApp": {
+    "Category": {
+      "null": "",
+      "GENERAL": "GENERAL",
+      "TECHNICAL": "TECHNICAL",
+      "COMPREHENSION": "COMPREHENSION"
+    }
+  }
+}

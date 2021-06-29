@@ -43,7 +43,9 @@
     "devServerPort": 9060,
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Skill", "QuestionMaster", "AnswerOptionMaster"],
+    "lastLiquibaseTimestamp": 1624950267000
   },
   "git-provider": "GitHub",
   "git-company": "diatoz",

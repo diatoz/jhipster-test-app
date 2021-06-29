@@ -1,0 +1,12 @@
+{
+  "jhipsterTestApp": {
+    "Complexity": {
+      "null": "",
+      "ENTRY": "ENTRY",
+      "JUNIOR": "JUNIOR",
+      "MID": "MID",
+      "SENIOR": "SENIOR",
+      "EXPERT": "EXPERT"
+    }
+  }
+}
